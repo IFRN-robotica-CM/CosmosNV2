@@ -1,2 +1,5 @@
-# CosmosNV2
-Biblioteca desenvolvida para controlar a Cosmos NV2 Shield
+Cosmos NV2 Library
+==================
+_Biblioteca desenvolvida para o controle da plataforma Cosmos NV2_
+
+![](assets/board.png)

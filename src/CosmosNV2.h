@@ -1,0 +1,11 @@
+
+#include "Constantes.h"
+#include "SensorDeRefletancia.h"
+#include "SensorDeToque.h"
+#include "SensorDeCor.h"
+#include "SensorDeDistancia.h"
+#include "AltoFalante.h"
+#include "Tela.h"
+#include "Motor.h"
+#include "ServoMotor.h"
+#include "PortaCOM.h"
