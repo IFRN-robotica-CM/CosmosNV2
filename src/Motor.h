@@ -1,4 +1,7 @@
 
+#ifndef Motor_h
+#define Motor_h
+
 #include <Arduino.h>
 
 // ------------------------------------- Classe Motor --------------------------------------- //
@@ -18,3 +21,5 @@ class Motor
     uint8_t _velocidade;
     uint8_t a, b;
 };
+
+#endif

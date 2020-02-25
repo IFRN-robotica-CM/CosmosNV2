@@ -1,4 +1,7 @@
 
+#ifndef CosmosNV2_h
+#define CosmosNV2_h
+
 #include "Constantes.h"
 #include "SensorDeRefletancia.h"
 #include "SensorDeToque.h"
@@ -9,3 +12,5 @@
 #include "Motor.h"
 #include "ServoMotor.h"
 #include "PortaCOM.h"
+
+#endif

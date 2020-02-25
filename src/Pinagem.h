@@ -1,4 +1,7 @@
 
+#ifndef Pinagem_h
+#define Pinagem_h
+
 #define PINO_SDA_SENSOR_DE_COR_DIREITO    42
 #define PINO_SCL_SENSOR_DE_COR_DIREITO    44
 #define PINO_SDA_SENSOR_DE_COR_ESQUERDO   38
@@ -41,3 +44,5 @@
 
 #define PINO_TX 42
 #define PINO_RX 40
+
+#endif

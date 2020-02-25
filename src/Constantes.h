@@ -1,4 +1,7 @@
 
+#ifndef Costantes_h
+#define Costantes_h
+
 #define B 1
 #define C 2
 #define D 3
@@ -27,3 +30,5 @@
 #define PRETO   0
 #define BRANCO  1
 #define INVERSO 2
+
+#endif

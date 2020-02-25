@@ -1,4 +1,7 @@
 
+#ifndef SensorDeCor_h
+#define SensorDeCor_h
+
 #include <Arduino.h>
 #include <Wire.h>
 #include "SoftwareWire/SoftwareWire.h"
@@ -47,3 +50,5 @@ class SensorDeCor {
   uint16_t read16 (uint8_t reg);
   void     enable(void);
 };
+
+#endif

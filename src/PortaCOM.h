@@ -1,4 +1,7 @@
 
+#ifndef PortaCOM_h
+#define PortaCOM_h
+
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 #include "Pinagem.h"
@@ -15,3 +18,5 @@ class PortaCOM
   private:
     SoftwareSerial meu_serial = SoftwareSerial(PINO_RX, PINO_TX);
 };
+
+#endif

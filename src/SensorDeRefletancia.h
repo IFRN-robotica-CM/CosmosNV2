@@ -1,4 +1,7 @@
 
+#ifndef SensorDeRefletancia_h
+#define SensorDeRefletancia_h
+
 #include <Arduino.h>
 
 // ------------------------------- Classe SensorDeRefletancia ------------------------------------- //
@@ -12,3 +15,5 @@ class SensorDeRefletancia
   private:
     uint8_t _pino;
 };
+
+#endif
