@@ -2,6 +2,9 @@
 #ifndef Costantes_h
 #define Costantes_h
 
+#define ANALOGICO 0
+#define DIGITAL   1
+
 #define B 1
 #define C 2
 #define D 3
