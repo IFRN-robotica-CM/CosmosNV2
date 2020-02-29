@@ -5,6 +5,8 @@
 
 // ------------------------------- Classe SensorDeRefletancia ------------------------------------- //
 
+SensorDeRefletancia::SensorDeRefletancia() {}
+
 SensorDeRefletancia::SensorDeRefletancia(uint8_t pino) {
 	_pino = pino;
 

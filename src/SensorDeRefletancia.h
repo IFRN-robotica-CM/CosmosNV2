@@ -9,6 +9,7 @@
 class SensorDeRefletancia
 {
   public:
+    SensorDeRefletancia();
     SensorDeRefletancia(uint8_t pino);
     int ler();
     void configurarModo(uint8_t modo);
