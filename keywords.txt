@@ -28,6 +28,7 @@ iniciar	KEYWORD2
 obterValores	KEYWORD2
 bipar	KEYWORD2
 tocar	KEYWORD2
+configurarPonteH	KEYWORD2
 configurarVelocidade	KEYWORD2
 girar	KEYWORD2
 parar	KEYWORD2
@@ -46,6 +47,8 @@ desenharImagem	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
+A1	ANALOGICO	Constants
+A2	DIGITAL	Constants
 A1	LITERAL1	Constants
 A2	LITERAL1	Constants
 A3	LITERAL1	Constants
@@ -69,6 +72,10 @@ L6	LITERAL1	Constants
 L7	LITERAL1	Constants
 M1	LITERAL1	Constants
 M2	LITERAL1	Constants
+M3	LITERAL1	Constants
+M4	LITERAL1	Constants
+L298N	LITERAL1	Constants
+L293D	LITERAL1	Constants
 S1	LITERAL1	Constants
 S2	LITERAL1	Constants
 S3	LITERAL1	Constants

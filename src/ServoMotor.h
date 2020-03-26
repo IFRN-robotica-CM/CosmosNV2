@@ -1,6 +1,6 @@
 
-#ifndef ServoMotor_h
-#define ServoMotor_h
+#ifndef _ServoMotor_h
+#define _ServoMotor_h
 
 #include <Arduino.h>
 #include <Servo.h>
@@ -10,6 +10,7 @@
 class ServoMotor
 {
   public:
+    ServoMotor();
     ServoMotor(uint8_t porta);
     void anexar(uint8_t porta);
     void desanexar();

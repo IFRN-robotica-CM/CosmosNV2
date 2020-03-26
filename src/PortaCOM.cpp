@@ -4,19 +4,21 @@
 
 // ------------------------------------ Classe PortaCOM ------------------------------------- //
 
+PortaCOM::PortaCOM() {}
+
 void PortaCOM::iniciar(long velocidade) {
   meu_serial.begin(velocidade);
 }
 
-int PortaCOM::disponivel() {
-  return meu_serial.available();
+boolean PortaCOM::existeDadoDisponivel() {
+  return (meu_serial.available() > 0)?true:false;
 }
 
 int PortaCOM::ler() {
   return meu_serial.read();
 }
 
-void PortaCOM::enviar(const char caractere) {
+void PortaCOM::enviar(char caractere) {
   meu_serial.write(caractere);
 }
 

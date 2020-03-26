@@ -1,6 +1,6 @@
 
-#ifndef Tela_h
-#define Tela_h
+#ifndef _Tela_h
+#define _Tela_h
 
 #include <Arduino.h>
 #include "Adafruit_SSD1306.h"

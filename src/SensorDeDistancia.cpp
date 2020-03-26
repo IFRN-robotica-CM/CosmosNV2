@@ -14,6 +14,8 @@
 
 // ----------------------------- Classe SensorDeDistancia ----------------------------------- //
 
+SensorDeDistancia::SensorDeDistancia() {}
+
 SensorDeDistancia::SensorDeDistancia(uint8_t porta) {
 	_porta = porta;
 

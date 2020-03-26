@@ -57,6 +57,8 @@
 
 // ----------------------------------- Classe SensorDeCor ----------------------------------- //
 
+SensorDeCor::SensorDeCor() {}
+
 SensorDeCor::SensorDeCor(uint8_t porta) 
 {
 	switch (porta) {
@@ -73,7 +75,7 @@ SensorDeCor::SensorDeCor(uint8_t porta)
 	}
 
   _tcs34725Initialised = false;
-  _tcs34725IntegrationTime = TCS34725_INTEGRATIONTIME_700MS;
+  _tcs34725IntegrationTime = TCS34725_INTEGRATIONTIME_308MS;
   _tcs34725Gain = TCS34725_GAIN_1X;
   
   _i2c = SoftwareWire (_sdaPin, _sclPin);
