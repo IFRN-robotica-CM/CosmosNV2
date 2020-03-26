@@ -1,6 +1,6 @@
 
-#ifndef SensorDeToque_h
-#define SensorDeToque_h
+#ifndef _SensorDeToque_h
+#define _SensorDeToque_h
 
 #include <Arduino.h>
 
@@ -9,6 +9,7 @@
 class SensorDeToque
 {
   public:
+    SensorDeToque();
     SensorDeToque(uint8_t porta);
     boolean lerEstado();
   private:

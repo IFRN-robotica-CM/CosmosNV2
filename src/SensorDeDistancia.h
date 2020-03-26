@@ -1,6 +1,6 @@
 
-#ifndef SensorDeDistancia_h
-#define SensorDeDistancia_h
+#ifndef _SensorDeDistancia_h
+#define _SensorDeDistancia_h
 
 #include <Arduino.h>
 #include "Adafruit_VL53L0X.h"
@@ -10,6 +10,7 @@
 class SensorDeDistancia
 {
   public:
+    SensorDeDistancia();
     SensorDeDistancia(uint8_t porta);
     boolean iniciar();
     int ler();

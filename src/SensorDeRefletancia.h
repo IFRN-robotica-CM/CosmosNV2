@@ -1,6 +1,6 @@
 
-#ifndef SensorDeRefletancia_h
-#define SensorDeRefletancia_h
+#ifndef _SensorDeRefletancia_h
+#define _SensorDeRefletancia_h
 
 #include <Arduino.h>
 

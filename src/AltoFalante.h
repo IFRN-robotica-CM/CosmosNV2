@@ -1,6 +1,6 @@
 
-#ifndef AltoFalante_h
-#define AltoFalante_h
+#ifndef _AltoFalante_h
+#define _AltoFalante_h
 
 #include <Arduino.h>
 

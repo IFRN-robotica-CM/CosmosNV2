@@ -4,6 +4,8 @@
 
 // ----------------------------------- Classe ServoMotor ------------------------------------ //
 
+ServoMotor::ServoMotor() {}
+
 ServoMotor::ServoMotor(uint8_t porta) {
 	servo.attach(porta);
 }
