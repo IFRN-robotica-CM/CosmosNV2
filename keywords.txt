@@ -17,12 +17,14 @@ AltoFalante	KEYWORD1
 Motor	KEYWORD1
 ServoMotor	KEYWORD1
 Tela	KEYWORD1
+PortaCOM	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
 ler	KEYWORD2
+configurarModo	KEYWORD2
 lerEstado	KEYWORD2
 iniciar	KEYWORD2
 obterValores	KEYWORD2
@@ -42,6 +44,8 @@ configurarTamanhoDoTexto	KEYWORD2
 configurarCorDoTexto	KEYWORD2
 escrever	KEYWORD2
 desenharImagem	KEYWORD2
+enviar	KEYWORD2
+existeDadoDisponivel	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

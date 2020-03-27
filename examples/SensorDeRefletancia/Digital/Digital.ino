@@ -6,11 +6,11 @@
   Por Vinícios Silva
 */
 
-#include "CosmosNV2.h"          // Inclui a biblioteca
+#include "CosmosNV2.h"            // Inclui a biblioteca
 
-int valor_lido = 0;             // Cria uma variável inteira
+int valor_lido = 0;               // Cria uma variável inteira
 
-SensorDeRefletancia sensor(A1); // Cria um sensor de refletância e anexa ele na porta A1
+SensorDeRefletancia sensor(A1);   // Cria um sensor de refletância e anexa ele na porta A1
 
 void setup() {
   sensor.configurarModo(DIGITAL); // Configura o sensor como sensor digital
@@ -18,10 +18,10 @@ void setup() {
 }
 
 void loop() {
-  valor_lido = sensor.ler();   // Faz uma leitura no sensor e guarda o resultado na variável valor_lido
+  valor_lido = sensor.ler();       // Faz uma leitura no sensor e guarda o resultado na variável valor_lido
 
-  Serial.print("Valor: ");     // Mostra os dados no Monitor Serial
+  Serial.print("Valor: ");         // Mostra os dados no Monitor Serial
   Serial.println(valor_lido);
 
-  delay(500);                  // Espera 500ms
+  delay(500);                      // Espera 500ms
 }

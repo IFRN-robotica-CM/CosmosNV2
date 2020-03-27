@@ -13,7 +13,7 @@ uint16_t g;              // Cria um variável do tipo uint16_t para guardar o va
 uint16_t b;              // Cria um variável do tipo uint16_t para guardar o valor do azul
 uint16_t c;              // Cria um variável do tipo uint16_t para guardar o valor da claridade
 
-SensorDeCor  sensor(D);  // Cria um sensor de cor
+SensorDeCor sensor(D);   // Cria um sensor de cor
 
 void setup() {
   sensor.iniciar();      // Inicia o sensor
