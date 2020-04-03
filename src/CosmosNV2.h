@@ -13,5 +13,6 @@
 #include "ServoMotor.h"
 #include "PortaCOM.h"
 #include "Led.h"
+#include "Botao.h"
 
 #endif

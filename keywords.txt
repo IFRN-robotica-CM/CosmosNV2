@@ -19,6 +19,7 @@ ServoMotor	KEYWORD1
 Tela	KEYWORD1
 PortaCOM	KEYWORD1
 Led	KEYWORD1
+Botao	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
