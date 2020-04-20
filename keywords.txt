@@ -20,6 +20,7 @@ Tela	KEYWORD1
 PortaCOM	KEYWORD1
 Led	KEYWORD1
 Botao	KEYWORD1
+MonitorSerial	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -51,7 +52,10 @@ existeDadoDisponivel	KEYWORD2
 acender	KEYWORD2
 apagar	KEYWORD2
 alternar	KEYWORD2
-inverter	KEYWORD2
+existeDadosDisponiveis	KEYWORD2
+imprimir	KEYWORD2
+imprimirLinha	KEYWORD2
+lerAte	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
