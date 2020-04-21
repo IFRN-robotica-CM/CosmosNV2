@@ -14,6 +14,5 @@
 #include "PortaCOM.h"
 #include "Led.h"
 #include "Botao.h"
-#include "MonitorSerial.h"
 
 #endif
