@@ -196,6 +196,9 @@ void SensorDeCor::obterValores (uint16_t *r, uint16_t *g, uint16_t *b, uint16_t 
     case TCS34725_INTEGRATIONTIME_154MS:
       delay(154);
       break;
+    case TCS34725_INTEGRATIONTIME_308MS:
+      delay(308);
+      break;
     case TCS34725_INTEGRATIONTIME_700MS:
       delay(700);
       break;
