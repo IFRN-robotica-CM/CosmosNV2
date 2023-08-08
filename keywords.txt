@@ -1,7 +1,7 @@
 #######################################
 # Syntax Coloring Map CosmosNV2
-# by Vinícios Silva
-# 	github: @ViniciosSilva811
+# by Vinícios Barbsosa
+# 	github: @vinebarbosa
 #######################################
 
 #######################################
